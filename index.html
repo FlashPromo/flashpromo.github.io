@@ -223,7 +223,7 @@
 
         <div class="stats-bar">
             <div class="stat-item">
-                <span class="stat-number" data-target="45000">0</span>
+                <span class="stat-number" data-target="4500">0</span>
                 <span class="stat-label">Público Estimado Diário</span>
             </div>
             <div class="stat-item">
@@ -288,7 +288,7 @@
 
                     if (count < target) {
                         const nextValue = Math.ceil(count + inc);
-                        if(target === 45000) counter.innerText = '~' + nextValue;
+                        if(target === 4500) counter.innerText = '~' + nextValue;
                         else if(target === 100) counter.innerText = nextValue + '%';
                         else counter.innerText = '+' + nextValue;
                         setTimeout(updateCount, 20);
